@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+.logo-container{width: 100%;height: 100%;object-fit: contain;display: flex;align-items: center;margin-bottom: 5px;padding: 5px 0}
+.menu {display: flex;gap: 20px;list-style: none;justify-content: center;padding-bottom: 18px;padding-top: 16px}
+.menu ul {padding: 0;margin: 0;list-style: none;}
+.menu li {position: relative;display: inline-block;}
+.menu a {text-decoration: none;font-size: 16px;color: white;font-weight: 500;padding: 10px 12px;transition: color 0.3s ease;}
+.menu a:hover {color: rgb(250, 179, 32);}
+.dropdown-menu {display: none;position: absolute;background: #000000;box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);min-width: 180px;top: 100%;left: 0;z-index: 1000;}
+.dropdown-menu li {width: 100%;}
+.dropdown-menu a {display: block;padding: 10px;font-size: 14px;color: white;transition: background 0.3s ease, color 0.3s ease;}
+.dropdown-menu a:hover {background: rgb(250, 179, 32);color: black;}
+.dropdown:hover .dropdown-menu {display: block;}
+.tai-khoan {display: flex;gap: 10px;margin-left: 30px;}
+.tai-khoan a {text-decoration: none;font-size: 14px;color: white;font-weight: 600;transition: color 0.3s ease;padding: 10px 15px}
+header {width: 100%;height: 60px;background-color: #000000}
+/*phan slide*/
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:70px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color:#F1DD57
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:white;
+      text-decoration: none; }
+main {width: 100%;min-height: 500px}
+.vien {width: 100%;min-height: 200px;border: 1px;padding: 5px;position: relative;overflow: hidden}
+.icon {position: absolute;width: 80%;height: 45px;display: flex;justify-content: space-around;left: 10%;top: -20%;transition: all 1s}
+.icon a {height: 45px;width: 45px;background-color: rgb(250, 179, 32);color: black;border-radius: 50%;display: flex;align-items: center;justify-content: center;text-decoration: none}
+.icon a:hover {background-color: black;color: rgb(250, 179, 32)}
+.vien:hover .icon {top: 60%}
+#phu-kien a{text-decoration: none;color: white;cursor: pointer}
+#phu-kien a:hover {color: #519FFF}
+#blog {
+  width: 100%;
+  min-height: 700px;
+  background-image: url("../img/Blog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom
+}
+#blogg {
+  width: 100%;
+  min-height: 700px;
+  background-image: url( "../img/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom
+}
+footer{
+	width: 100%;min-height: 200px;
+}
+footer a{
+	text-decoration: none;color: white;
+}
+footer a:hover{
+	color: darkred
+}.bg-blue{
+	min-height: 200px;background-color: #3AAAFF;text-align: center
+}
+footer ul{
+	margin: 0;padding: 0;list-style: none;display: flex;flex-direction: column
+}
+footer ul li a{
+	display: block;padding: 10px; color: white
+}
+.form-control{
+	padding: 8px;width: 100%; margin-bottom: 10px
+}
+.nut{
+	padding: 10px 20px;background-color: #226BEC; color: white;border: 1px solid #226BEC; border-radius: 6px; cursor: pointer
+}
+.nut:hover{
+	background-color: #0C0A9C
+}
+.vien-xam{
+	width: 100%; border: 1px solid gray;min-height: 400px; border-radius: 5px;padding: 10px;margin-bottom: 15px
+}
